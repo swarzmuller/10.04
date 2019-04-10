@@ -1,0 +1,40 @@
+.advent{
+  background: #fff;
+  &-head{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0d253e;
+    font-size: 38px;
+  }
+  &-uder-head{
+    opacity: 0.4;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0d253e;
+  }
+  &__item{
+    width: 150px;
+    height: 150px;
+    border: solid 6px #ffffff;
+    background-color: #f4f8fc;
+    &__text{
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #0d253e;
+    }
+  }
+}
